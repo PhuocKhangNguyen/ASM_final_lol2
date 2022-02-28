@@ -1,0 +1,322 @@
+#header{
+    height: 589px;
+    position: relative;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.nav{
+    height: 70px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.nav:hover .TT-list{
+    display: block;
+}
+.nav>img{
+    margin-right: 40px;
+    text-align: center;
+}
+.TT{
+    color: tan;
+    margin-right:94px ;
+    font-size: 17px;
+}
+.TT-list{
+    position: absolute;
+    z-index: 1000;
+    background-color: #061B24;
+    width: 1519px;
+    opacity: 0.9;
+    transform: translateY(60%);
+    color: #ffffff;
+    padding: 20px;
+    display: none;
+}
+.TT-items>li:hover{
+    color: #0B9FB7;
+}
+.GT-items>li:hover{
+    color: #0B9FB7;
+}
+.TT-items{
+    transform: translateX(413%); 
+    float: left;
+}
+.TT-items>li{
+    margin-bottom: 25px;
+}
+.GT-items>li{
+    margin-bottom: 25px;
+}
+.GT-items{
+    transform: translateX(580%);
+    float: left;
+}
+.GT-items a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.TT-items a{
+    text-decoration: none;
+    color: #ffffff
+}
+.GT-items>li a:hover{
+    color: #0B9FB7;
+}
+.TT:hover{
+    border-bottom: 3px solid skyblue;
+}
+.GT{
+    color: tan;
+    margin-right:92px ;
+    font-size: 17px;
+}
+.GT:hover{
+    border-bottom: 3px solid skyblue;
+}
+.ES{
+    color: tan;  
+    margin-right:104px ; 
+    font-size: 17px;
+}
+.HT{
+    color: tan;
+    margin-right:98px ;
+    font-size: 17px;
+}
+.TG{
+    color: tan;
+    margin-right:95px ;
+    font-size: 17px;
+}
+.TG:hover{
+    border-bottom: 3px solid skyblue;
+}
+.NT{
+    color: tan;
+    font-size: 17px;
+}
+.NT a{
+    text-decoration: none;
+    color: tan;
+}
+.pos{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}  
+.col1{
+    background-image: url(https://cdn.wallpapersafari.com/66/27/h1Czx5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 66px;
+    padding-left: 77px;
+    padding-right: 77px; 
+    height: 1000px;   
+}
+.col2{
+    background-image: url(https://i.ytimg.com/vi/KhJrFQgLSQw/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 66px;
+    padding-left: 77px;
+    padding-right: 77px; 
+    height: 1000px;
+    margin-left: -50px;
+}
+.col3{
+    background-image: url(https://cdn.vn.garenanow.com/web/lol-product/LOLwebsite/img/tutorial/skillBg-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 66px;
+    padding-left: 77px;
+    padding-right: 77px; 
+    height: 1000px ;
+}
+.pos1{
+    width: 195px;
+    height: 25px;
+    margin: 0 auto;
+    color:#2c3e50;
+    font-size:20px;
+    font-weight:600;
+    line-height:24px;
+    text-align:center;
+    }
+.pos2{
+    width: 1370px;
+    height: 140px;
+    margin: 0 auto;
+    color: #2c3e50;
+    font-size: 90px;
+    line-height: 120px;
+    text-align: center;
+}
+.pos3{
+    height: 20px;
+    width: 1365px;
+    margin: 0 auto;
+    color:#b6d642;
+    line-height: 16px;
+    margin: 30px 0px 0px;
+    text-align:center;
+    padding-bottom: 40px;
+}
+.pos4{
+    width: 170px;
+    height: 50px;
+    margin: 0 auto;
+    color:#2c3e50;
+    font-size:20px;
+    font-weight:600;
+    line-height: 48px;
+    text-align:center;
+   background-color: #CFA85B;
+}
+.pos5{
+    width: 615px;
+    height: 156px;
+    margin: 0 auto;
+    color:#ffffff;
+    font-size: 60px;
+    font-weight:600;
+    line-height:72px;
+    margin:0px 432.975px 15px;
+    text-align:center;  
+}
+.pos6{
+    width: 680px;
+    height: 72px;
+    margin: 0 auto;
+    color:#ffffff;
+    font-size:17px;
+    line-height:17px;
+    margin:0px 409.6px;
+    text-align:center;
+}
+.pos7{
+    width: 540px;
+    height: 60px;
+    margin: 0 auto;
+    color:#2c3e50;
+    font-size:50px;
+    font-weight:600;
+    line-height:60px;
+    text-align:center;
+    padding-top: 90px;
+}
+.pos8{
+    width: 800px;
+    height: 50px;
+    margin: 0 auto;
+    color:#2c3e50;
+    font-size:15px;
+    line-height:15px;
+    margin: 20px 290px 0px;
+    text-align: center;
+    padding-top: 90px;
+}
+.pos9{
+    width: 925px;
+    height: 177;
+    margin: 0 auto;
+    padding-top: 90px;
+}
+.pos9-2{
+    transform: translateY(-300%);
+}
+.pos9-1{
+    z-index: -1000;
+}
+.pos9-3{
+    transform: translate(-32%, -205%);
+}
+.pos9-4{
+    transform: translate(0%, -143%);
+}
+.pos9-5{
+    transform: translate(185%, -405%);
+}
+.pos9-6{
+    transform: translate(18%, -871%);
+}
+#footer{
+    background-color: black;
+    height: 380px;
+    padding-top: 50px;
+}
+.footer-logo1{
+    height: 45px;
+    margin: 0 auto;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    gap: 35px;  
+}
+.in4{
+    height: 52px;
+    width: 816px;
+    margin: 0 auto;
+    margin-bottom: 37px;
+    margin-top: 37px;
+    font-size: 12px;
+    text-align: center;
+    color: #ffffff;
+}
+.FB{
+    width: 72px;
+    height: 22px;
+    color: #ffffff;
+    font-size: 15px;
+}
+.YB{
+    width: 62px;
+    height: 22px;
+    color: #ffffff;
+    font-size: 15px;
+}
+.DK{
+    width: 128px;
+    height: 22px;
+    color: #ffffff;
+    font-size: 15px;
+}
+.TTHT{
+    width: 125px;
+    height: 22px;
+    color: #ffffff;
+    margin-right: 30px;
+    font-size: 15px;
+}
+.vv{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.playfree{
+    background-color: #007aff;
+    width: 171px;
+    height: 41px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 600;
+    line-height: 40px;
+}
+.x{
+    background-color: yellow;
+    width: 115px;
+    height: 53px;
+}
+.free{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 40px;
+}
+.map{
+    text-align: center;
+    width: 0 auto;
+}

@@ -1,0 +1,269 @@
+#header{
+    height: 589px;
+    position: relative;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.nav{
+    height: 70px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.nav:hover .TT-list{
+    display: block;
+}
+.nav>img{
+    margin-right: 40px;
+    text-align: center;
+}
+.TT{
+    color: tan;
+    margin-right:94px ;
+    font-size: 17px;
+}
+.TT-list{
+    position: absolute;
+    z-index: 1000;
+    background-color: #061B24;
+    width: 1519px;
+    opacity: 0.9;
+    transform: translateY(60%);
+    color: #ffffff;
+    padding: 20px;
+    display: none;
+}
+.TT-items>li:hover{
+    color: #0B9FB7;
+}
+.GT-items>li:hover{
+    color: #0B9FB7;
+}
+.TT-items{
+    transform: translateX(413%); 
+    float: left;
+}
+.TT-items>li{
+    margin-bottom: 25px;
+}
+.GT-items>li{
+    margin-bottom: 25px;
+}
+.GT-items{
+    transform: translateX(585%);
+    float: left;
+}
+.GT-items a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.TT-items a{
+    text-decoration: none;
+    color: #ffffff
+}
+.GT-items>li a:hover{
+    color: #0B9FB7;
+}
+.TT-items>li a:hover{
+    color: #0B9FB7;
+}
+.TT:hover{
+    border-bottom: 3px solid skyblue;
+}
+.GT{
+    color: tan;
+    margin-right:92px ;
+    font-size: 17px;
+}
+.GT:hover{
+    border-bottom: 3px solid skyblue;
+}
+.ES{
+    color: tan;  
+    margin-right:104px ; 
+    font-size: 17px;
+}
+.HT{
+    color: tan;
+    margin-right:98px ;
+    font-size: 17px;
+}
+.TG{
+    color: tan;
+    margin-right:95px ;
+    font-size: 17px;
+}
+.TG:hover{
+    border-bottom: 3px solid skyblue;
+}
+.NT{
+    color: tan;
+    font-size: 17px;
+}
+.NT a{
+    text-decoration: none;
+    color: tan;
+}
+.header-background{
+    width: 100%;
+    height: 350px;
+}
+.content>img{
+    width: 1000px;
+    height: 200px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    position: absolute;
+    top: 90px;
+    left: 150px;
+    margin-left: 65px;
+}
+#new{
+    height: 0 auto;
+    background-color: white;
+    padding-top: 86px;
+    padding-left: 149px;
+    padding-right: 149px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+.news1{
+    float: left;
+}
+.news2{
+    background-color: white;
+    height: 426px;
+    width: 341px;
+}
+.news2-img{
+    height: 224px;
+    width: 341px;
+}
+.news2-heading{
+    height: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #0ac6e4;
+}
+.news2-taito{
+    line-height: 21px;
+    width: 320px;
+    height: 40px;
+    margin-bottom: 25px;
+    font-weight: 900;
+    font-size: 21px;
+}
+.news2-decs{
+    font-size: 14px;
+    width: 320px;
+    height: 40px;
+    margin-bottom: 25px;
+    line-height: 19.6px;
+    color: #808080;
+}
+.news2-dmy{
+    font-size: 14px;
+    line-height: 14px;
+    width: 113px;
+    height: 15px;
+    color: #808080;
+}
+.col{
+    padding-top: 26px;
+    padding-left: 8px;
+    padding-right: 10px;
+}
+.class{
+    display: flex;
+    gap: 100px;
+    margin-bottom: 15px;
+}
+#footer{
+    background-color: black;
+    height: 380px;
+    padding-top: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.footer-logo1{
+    height: 45px;
+    margin: 0 auto;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    gap: 35px;  
+}
+.in4{
+    height: 52px;
+    width: 816px;
+    margin: 0 auto;
+    margin-bottom: 37px;
+    margin-top: 37px;
+    font-size: 12px;
+    text-align: center;
+    color: #ffffff;
+}
+.FB{
+    width: 72px;
+    height: 22px;
+    color: #ffffff;
+    font-size: 15px;
+}
+.YB{
+    width: 62px;
+    height: 22px;
+    color: #ffffff;
+    font-size: 15px;
+}
+.DK{
+    width: 128px;
+    height: 22px;
+    color: #ffffff;
+    font-size: 15px;
+}
+.TTHT{
+    width: 125px;
+    height: 22px;
+    color: #ffffff;
+    margin-right: 30px;
+    font-size: 15px;
+}
+.vv{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.playfree{
+    background-color: #007aff;
+    width: 171px;
+    height: 41px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 600;
+    line-height: 40px;
+}
+.x{
+    background-color: yellow;
+    width: 115px;
+    height: 53px;
+}
+.free{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 40px;
+}
+.form{
+    margin-left: 575px;
+    text-align: center;
+    width: 300px;
+    padding: 20px 20px;
+    font-size: 25px;
+}
